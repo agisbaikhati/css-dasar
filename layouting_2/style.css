@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+    border: 5px solid rgb(250, 5, 246);
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
