@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #b85fe4;
+  background-color: #0087bd;
   padding: 15px 30px;
 }
 
@@ -20,6 +20,10 @@
   border: 1px solid #999;
   padding: 5px 10px;
   background-color: #ecfc15;
+}
+
+.navbar ul li {
+  display: inline-block;
 }
 
 .hero {
