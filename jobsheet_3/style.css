@@ -117,3 +117,132 @@
   border-radius: 4px;
   text-align: center;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #e3f2fd;
+  border: 1px solid #6d6868;
+  border-radius: 3px;
+}
+
+.copyright p {
+  border: 1px dashed #3b3030;
+  padding: 5px 10px;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: 1px solid #6d6868;
+  background-color: #fff;
+  text-decoration: none;
+  color: #333;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    nav a {
+        display: block;
+    }
+    .hero {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        padding: 25px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+    .produk-container {
+        grid-template-columns: repeat;
+    }
+
+    .produk {
+        padding: 20px;
+    }
+    footer {
+        align-items: flex-start;
+    }
+}
+@media (max-width: 480px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .logo {
+        padding: 5px 0;
+    }
+    .hero {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-image {
+        height: 210px;
+    }
+    .produk {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .produk-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card-image {
+        height: 350px;
+
+    }
+    footer {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-menu a {
+        display: block;
+    }
+}
